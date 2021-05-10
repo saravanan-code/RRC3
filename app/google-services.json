@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "132443608075",
+    "project_id": "rrc-donar-app",
+    "storage_bucket": "rrc-donar-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132443608075:android:7897cc08cd3e9bc587a30e",
+        "android_client_info": {
+          "package_name": "com.example.rrc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132443608075-e9kbj5jpm6m38fjti5jr753uevcuh2h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSns4Tu81Oo79ZeOQBDJadm7p8vhzAQXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132443608075-e9kbj5jpm6m38fjti5jr753uevcuh2h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132443608075:android:65c8bccbbd3e8af787a30e",
+        "android_client_info": {
+          "package_name": "com.example.rrc3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132443608075-e9kbj5jpm6m38fjti5jr753uevcuh2h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSns4Tu81Oo79ZeOQBDJadm7p8vhzAQXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132443608075-e9kbj5jpm6m38fjti5jr753uevcuh2h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
