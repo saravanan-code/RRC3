@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pexels_karolina_grabowska_6757555"
+    tools:context=".Admin_registration" >
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="728dp"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/adb"
+                android:layout_width="409dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="1dp"
+                android:text="Admin Registration"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/AD_name"
+                android:layout_width="313dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="95dp"
+                android:layout_marginEnd="46dp"
+                android:layout_marginBottom="44dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toTopOf="@+id/Gender_ad_spinner"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/adb"
+                tools:hint="Name" />
+
+            <Spinner
+                android:id="@+id/Gender_ad_spinner"
+                android:layout_width="204dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="46dp"
+                android:entries="@array/Gender"
+                android:text="Designation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/AD_name" />
+
+            <Spinner
+                android:id="@+id/BG__ad_spinner"
+                android:layout_width="195dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="161dp"
+                android:entries="@array/bloodGroups"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Gender_ad_spinner" />
+
+            <EditText
+                android:id="@+id/AD_age"
+                android:layout_width="109dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="147dp"
+                android:ems="10"
+                android:inputType="date|textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BG__ad_spinner"
+                tools:hint="Age" />
+
+            <EditText
+                android:id="@+id/AD_phone"
+                android:layout_width="302dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="54dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="57dp"
+                android:ems="10"
+                android:inputType="phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/AD_age"
+                tools:hint="Mobile number" />
+
+            <EditText
+                android:id="@+id/AD_password"
+                android:layout_width="304dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="53dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginEnd="54dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/AD_phone"
+                tools:hint="Password" />
+
+            <EditText
+                android:id="@+id/AD_email"
+                android:layout_width="303dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="53dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="51dp"
+                android:ems="10"
+                android:hint="Email address"
+                android:inputType="textEmailAddress"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/AD_password" />
+
+            <Button
+                android:id="@+id/ad_reg_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="156dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="156dp"
+                android:text="REGISTER"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/AD_email" />
+
+            <ProgressBar
+                android:id="@+id/ad_prog"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="182dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="182dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="gone" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

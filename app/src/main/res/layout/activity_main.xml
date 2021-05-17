@@ -9,15 +9,15 @@
 
     <TextView
         android:id="@+id/banner"
-        android:layout_width="347dp"
-        android:layout_height="102dp"
+        android:layout_width="326dp"
+        android:layout_height="63dp"
         android:layout_marginStart="130dp"
         android:layout_marginTop="29dp"
         android:layout_marginEnd="130dp"
         android:layout_marginBottom="591dp"
-        android:text="Nadar Saraswathi College of Engineerin Technology"
+        android:text="Nadar Saraswathi College of Engineering Technology"
         android:textAlignment="center"
-        android:textSize="26dp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,22 +27,18 @@
 
     <TextView
         android:id="@+id/sbanner"
-        android:layout_width="303dp"
-        android:layout_height="85dp"
-        android:layout_marginStart="54dp"
-        android:layout_marginTop="139dp"
-        android:layout_marginEnd="54dp"
-        android:layout_marginBottom="398dp"
+        android:layout_width="298dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="58dp"
         android:text="“Be Grateful And Donate Blood”"
         android:textAlignment="center"
-        android:textSize="22dp"
+        android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.012" />
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
 
     <EditText
         android:id="@+id/email"
@@ -52,6 +48,7 @@
         android:layout_marginTop="289dp"
         android:layout_marginEnd="73dp"
         android:layout_marginBottom="405dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="Enter Email Address"
         android:inputType="textEmailAddress"
@@ -60,8 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="visible"
-        android:autofillHints="" />
+        tools:visibility="visible" />
 
     <EditText
         android:id="@+id/Password"
@@ -71,6 +67,7 @@
         android:layout_marginTop="361dp"
         android:layout_marginEnd="66dp"
         android:layout_marginBottom="314dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
@@ -78,13 +75,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/blogin"
-        android:layout_width="160dp"
-        android:layout_height="44dp"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
         android:layout_marginStart="67dp"
         android:layout_marginTop="458dp"
         android:layout_marginEnd="70dp"
@@ -139,7 +135,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/Admin_button"
         android:layout_width="70dp"
         android:layout_height="41dp"
         android:layout_marginStart="170dp"
