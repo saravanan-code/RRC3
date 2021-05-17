@@ -146,6 +146,7 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="156dp"
                 android:text="REGISTER"
+                android:textColor="#E32424"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.4"
                 app:layout_constraintStart_toStartOf="parent"
